@@ -3,13 +3,12 @@ import logo from '../logo.svg';
 function Header(props) {
     //const city = "Seoul";
     console.log(props);
-    const city = props.cityName;
+    const city = props.cityName; //부모의 cityName을 가져와서 city 변수로 사용하겠다. 
 
     return (
         <header className="App-header">
             <img src={logo} className="App-logo" alt="logo" />
             <p> 도시는: {city}</p>
-            <p>안녕하세요. </p>
             <a
             className="App-link"
             href="https://reactjs.org"
