@@ -44,3 +44,22 @@
   padding-left: 0;
   list-style: none;
 }
+
+.cityList{
+  background-color :peachpuff;
+
+}
+.cityListP{
+text-align: left;
+margin-left: 10px;
+}
+
+.cityListLi{
+  background-color:beige;
+  list-style: none;
+  padding:3px;
+  margin: 15px 0px 0px 10px;
+  outline: 1px solid black;
+  margin-right: 50px;
+  width: auto;
+}

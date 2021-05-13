@@ -24,9 +24,6 @@ function Cities(){
             <h1>Cities</h1>
             <p>{API_URL}</p>
             <CityList cities={cityState}/>
-            <ul>
-                <li></li>
-            </ul>
         </div>
     );
 }
