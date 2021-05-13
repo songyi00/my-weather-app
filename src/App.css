@@ -47,11 +47,11 @@
 
 .cityList{
   background-color :peachpuff;
-
 }
 .cityListP{
-text-align: left;
-margin-left: 10px;
+text-align: center;
+position: relative;
+left: -20px;
 }
 
 .cityListLi{
